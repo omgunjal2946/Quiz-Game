@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeHero Academy - Login</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero-card">
+      <h1>⚔️ CodeHero Academy</h1>
+      <p>Learn coding by solving game-like missions.</p>
+      <div class="tabs">
+        <button class="tab-btn active" data-role="student">Student Login</button>
+        <button class="tab-btn" data-role="admin">Admin Login</button>
+        <button class="tab-btn" data-role="register">Register</button>
+      </div>
+
+      <form id="loginForm" class="form-card">
+        <h2 id="formTitle">Student Login</h2>
+        <input type="text" id="name" placeholder="Full name (register only)" class="hidden" />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit" id="submitBtn">Login</button>
+      </form>
+
+      <p class="hint">Default admin: <b>admin@quizgame.edu</b> / <b>Admin@123</b></p>
+      <p id="message" class="message"></p>
+    </section>
+  </main>
+  <script src="js/auth.js"></script>
+</body>
+</html>

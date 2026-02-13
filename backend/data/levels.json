@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "title": "Level 1: First Print",
+    "description": "Write Python code that prints exactly Hello, CodeHero!",
+    "instruction": "Use print('Hello, CodeHero!')",
+    "requiredPattern": "print\\s*\\(\\s*['\"`]Hello, CodeHero!['\"`]\\s*\\)",
+    "score": 50
+  },
+  {
+    "id": 2,
+    "title": "Level 2: Loop Mission",
+    "description": "Write Python code using a for loop and print numbers 1 to 3.",
+    "instruction": "Use a for loop and print values 1, 2, 3",
+    "requiredKeywords": ["for", "range", "print"],
+    "requiredPattern": "range\\s*\\(\\s*1\\s*,\\s*4\\s*\\)",
+    "score": 50
+  }
+]

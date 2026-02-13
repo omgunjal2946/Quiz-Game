@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Dashboard - CodeHero Academy</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="dashboard">
+    <header class="dashboard-header">
+      <h1>🎮 Student Dashboard</h1>
+      <button id="logoutBtn">Logout</button>
+    </header>
+
+    <section class="panel">
+      <h2>Welcome, <span id="studentName"></span></h2>
+      <p>Total Score: <strong id="totalScore">0</strong></p>
+      <p>Completed Levels: <strong id="completedCount">0</strong></p>
+    </section>
+
+    <section class="panel">
+      <h2>Game Levels</h2>
+      <div id="levelsContainer" class="level-grid"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Submit Your Code</h2>
+      <p id="levelLabel">Choose a level first.</p>
+      <textarea id="codeInput" rows="8" placeholder="Write your Python code here..."></textarea>
+      <button id="submitCodeBtn">Run Safe Validation</button>
+      <p id="resultMessage" class="message"></p>
+    </section>
+  </main>
+
+  <script src="js/student.js"></script>
+</body>
+</html>
