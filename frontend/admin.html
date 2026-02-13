@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Panel - CodeHero Academy</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="dashboard">
+    <header class="dashboard-header">
+      <h1>🛡️ Admin Panel</h1>
+      <button id="logoutBtn">Logout</button>
+    </header>
+
+    <section class="panel" id="overviewPanel"></section>
+
+    <section class="panel">
+      <h2>Student Progress Table</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Completed Levels</th>
+              <th>Total Score</th>
+            </tr>
+          </thead>
+          <tbody id="studentsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

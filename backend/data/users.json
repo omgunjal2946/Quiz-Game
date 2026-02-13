@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Admin User",
+    "email": "admin@quizgame.edu",
+    "password": "$2b$10$5xU6pnM7eh0qMcd9b4L64u1SZJ8fXgYZa2Yh4Vwaki3P6KyHRxY6u",
+    "role": "admin",
+    "progress": {
+      "completedLevels": [],
+      "scores": {},
+      "totalScore": 0
+    }
+  }
+]
